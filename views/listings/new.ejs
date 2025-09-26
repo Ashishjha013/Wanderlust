@@ -1,0 +1,116 @@
+<% layout("/layouts/boilerplate") %>
+
+<div class="row mt-3">
+  <div class="col-8 offset-2">
+    <br /><br />
+
+  <h3>Create a New Listing</h3>
+    <form
+      method="POST"
+      action="/listings"
+      novalidate
+      class="needs-validation"
+      enctype="multipart/form-data"
+    >
+      <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <input
+          name="listing[title]"
+          placeholder="Add a catchy title"
+          type="text"
+          class="form-control"
+          required
+        />
+        <div class="valid-feedback">Title looks good!</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea
+          name="listing[description]"
+          class="form-control"
+          required
+        ></textarea>
+        <div class="invalid-feedback">Please enter a short Description.</div>
+      </div>
+
+      <div class="mb-3">
+        <label for="image" class="form-label">Upload Listing Image</label>
+        <input name="listing[image]" type="file" class="form-control" required />
+      </div>
+
+      <div class="row">
+        <div class="mb-3 col-md-4">
+          <label for="price" class="form-label">Price</label>
+          <input
+            name="listing[price]"
+            placeholder="1200"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">Price should be valid.</div>
+        </div>
+
+        <div class="mb-3 col-md-8">
+          <label for="country" class="form-label">Country</label>
+          <input
+            name="listing[country]"
+            placeholder="India"
+            type="text"
+            class="form-control"
+            required
+          />
+          <div class="invalid-feedback">Country name should be valid.</div>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="location" class="form-label">Location</label>
+        <input
+          name="listing[location]"
+          placeholder="New Delhi, India"
+          type="text"
+          class="form-control"
+          required
+        />
+        <div class="invalid-feedback">Location should be valid.</div>
+      </div>
+
+      <div class="mb-3">
+        <label class="form-label d-block">Category</label>
+        <input type="hidden" name="listing[category]" id="categoryInput" value="" />
+        <div class="dropdown d-inline-block">
+          <button
+            class="btn btn-light dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Select Category
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#" data-value="Trending">Trending</a>
+            <a class="dropdown-item" href="#" data-value="Room">Room</a>
+            <a class="dropdown-item" href="#" data-value="Iconic Cities">Iconic Cities</a>
+            <a class="dropdown-item" href="#" data-value="Mountains">Mountains</a>
+            <a class="dropdown-item" href="#" data-value="Castles">Castles</a>
+            <a class="dropdown-item" href="#" data-value="Amazing pool">Amazing pool</a>
+            <a class="dropdown-item" href="#" data-value="Camping">Camping</a>
+            <a class="dropdown-item" href="#" data-value="Farms">Farms</a>
+            <a class="dropdown-item" href="#" data-value="Arctic">Arctic</a>
+            <a class="dropdown-item" href="#" data-value="Domes">Domes</a>
+            <a class="dropdown-item" href="#" data-value="Boats">Boats</a>
+            <a class="dropdown-item" href="#" data-value="Other">Other</a>
+          </div>
+        </div>
+        <div id="categoryError" class="text-danger mt-1 d-none">Please select a category.</div>
+      </div>
+
+      <br>
+
+      <button class="btn btn-dark add-btn" mt-3>Add</button>
+    </form>
+  </div>
+</div>
