@@ -14,7 +14,7 @@
 
 It combines **Express, MongoDB, Passport, Cloudinary, and Mapbox** into a seamless application that mirrors real-world product complexity — making it a strong showcase for full-stack development skills.
 
-🚀 **Live Demo**: [WanderLust on Render](https://wanderlust-oxsv.onrender.com/listings)
+🚀 **Live Demo**: [WanderLust on Render]([https://your-render-url.onrender.com](https://wanderlust-oxsv.onrender.com/listings)) 
 📂 **Repository**: [GitHub Repo](https://github.com/ashishjha013/wanderlust)  
 
 ---
