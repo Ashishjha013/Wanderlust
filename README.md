@@ -115,7 +115,7 @@ Cloud integrations: Cloudinary (media), Mapbox (location)
 
 ## ✨ Author
 **Ashish Kumar Jha**  
-📍 India | 💻 Aspiring Software Engineer
+📍 India | 💻 Full-Stack Software Engineer
 
 ---
 
