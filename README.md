@@ -110,3 +110,18 @@ Cloud integrations: Cloudinary (media), Mapbox (location)
 - Sessions stored in MongoDB with secure secret keys.
 - Environment variables handled privately (not committed to Git).
 - Validation with Joi ensures strong input safety.
+
+---
+
+## ✨ Author
+**Ashish Kumar Jha**  
+📍 India | 💻 Aspiring Software Engineer
+
+---
+
+## 📬 Connect with Me
+
+- 🔗 GitHub: [Ashishjha013](https://github.com/Ashishjha013)
+- 💼 LinkedIn: [Ashish Jha](https://www.linkedin.com/in/ashishjha13/)
+- 📧 Email: [ashishjha1304@gmail.com](mailto:ashishjha1304@gmail.com)
+
