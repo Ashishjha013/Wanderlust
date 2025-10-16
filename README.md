@@ -1,8 +1,6 @@
 # 🌍 WanderLust  
 
-![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js&logoColor=white)  ![Express](https://img.shields.io/badge/Express-5-black?logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen?logo=mongodb&logoColor=white)  ![Passport.js](https://img.shields.io/badge/Auth-Passport.js-blue?logo=passport&logoColor=white)  
-![Cloudinary](https://img.shields.io/badge/Cloud-Cloudinary-lightblue?logo=cloudinary&logoColor=white)  
-![Mapbox](https://img.shields.io/badge/Maps-Mapbox-black?logo=mapbox&logoColor=white)  ![Render](https://img.shields.io/badge/Deployed%20On-Render-purple?logo=render&logoColor=white)  
+![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js&logoColor=white)  ![Express](https://img.shields.io/badge/Express-5-black?logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-brightgreen?logo=mongodb&logoColor=white)  ![Passport.js](https://img.shields.io/badge/Auth-Passport.js-blue?logo=passport&logoColor=white)  ![Cloudinary](https://img.shields.io/badge/Cloud-Cloudinary-lightblue?logo=cloudinary&logoColor=white) ![Mapbox](https://img.shields.io/badge/Maps-Mapbox-black?logo=mapbox&logoColor=white)  ![Render](https://img.shields.io/badge/Deployed%20On-Render-purple?logo=render&logoColor=white)  
 
 ---
 
